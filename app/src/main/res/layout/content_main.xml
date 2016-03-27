@@ -24,45 +24,33 @@
         android:textColor="@android:color/white" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="launchApp"
+        style="@style/AppStartButtonStyle"
         android:tag=""
         android:text="@string/app1_name" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="launchApp"
+        style="@style/AppStartButtonStyle"
         android:tag=""
         android:text="@string/app2_name" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="launchApp"
+        style="@style/AppStartButtonStyle"
         android:tag=""
         android:text="@string/app3_name" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="launchApp"
+        style="@style/AppStartButtonStyle"
         android:tag=""
         android:text="@string/app4_name" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="launchApp"
+        style="@style/AppStartButtonStyle"
         android:tag=""
         android:text="@string/app5_name" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/AppStartButtonStyle"
         android:backgroundTint="@color/colorPrimary"
-        android:onClick="launchApp"
         android:tag=""
         android:text="@string/app6_name" />
 </LinearLayout>
